@@ -6,7 +6,7 @@ public class principal {
 
     public static void main(String[] args) {
         
-        TareaImprimir t1 = new TareaImprimir("1er proceso");
+        TareaImprimir t1 = new TareaImprimir("1er Proceso");
         
         // iniciamos com en la expo
         Thread proceso1;
