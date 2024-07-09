@@ -21,7 +21,7 @@ public class TareaImprimir  implements Runnable{
         
         try{
             
-            System.out.printf("%s va estar inactivo durante %d milisegundos...\n", nombreTarea, tiempoInactividad);
+            System.out.printf("%s Va estar inactivo durante %d milisegundos...\n", nombreTarea, tiempoInactividad);
             System.out.printf("   Inicia inactividad de %s\n", nombreTarea);
             Thread.sleep(tiempoInactividad);
             System.out.printf("   Termina inactividad de %s\n", nombreTarea);
