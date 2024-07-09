@@ -20,7 +20,7 @@ public class principal {
         proceso3 = new Thread( new TareaImprimir("3er Proceso") );
         
         //desplegamos
-        System.out.printf("***************Los procesos han sido creados....\n\n");
+        System.out.printf("***************Los procesos han sido creados OK....\n\n");
         
         //incia los procesos con la funcion start()
         proceso1.start();
@@ -28,7 +28,7 @@ public class principal {
         proceso3.start();
         
         //le indicamos al usuario que la funcion main ya termina
-        System.out.printf("****Procesos iniciados..., la función main ha terminado...\n\n");
+        System.out.printf("****Procesos iniciados OK..., la función main ha terminado...\n\n");
         
     }
 }
